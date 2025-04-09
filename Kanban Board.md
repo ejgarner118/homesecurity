@@ -4,10 +4,15 @@ kanban-plugin: board
 
 ---
 
-## 🛠️ Epic 1: Hardware Setup and Wiring
+## 🦾In Progress
 
 - [ ] Procure hardware (XIAO ESP32S3, SG90 servos, Pi, cables, power, etc.)
+- [ ] Design Camera Base
 - [ ] Assemble each camera node (connect camera + servo to XIAO)
+
+
+## 🛠️ Epic 1: Hardware Setup and Wiring
+
 - [ ] Power decision: finalize USB vs. solar (stick with USB for now)
 - [ ] Setup Raspberry Pi (install Raspberry Pi OS, enable SSH, update)
 - [ ] Validate hardware (servo sweep test, camera cable seated properly)
@@ -75,10 +80,6 @@ kanban-plugin: board
 - [ ] Integrate with Home Assistant (use MJPEG URL or custom component)
 
 
-## In Progress
-
-
-
 ## Blocked
 
 
@@ -91,6 +92,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false]}
+{"kanban-plugin":"board","list-collapse":[null,false,false,false]}
 ```
 %%
