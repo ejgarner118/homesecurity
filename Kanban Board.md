@@ -6,8 +6,6 @@ kanban-plugin: board
 
 ## 🦾In Progress
 
-- [ ] Procure hardware (XIAO ESP32S3, SG90 servos, Pi, cables, power, etc.)
-- [ ] Design Camera Base
 - [ ] Assemble each camera node (connect camera + servo to XIAO)
 
 
@@ -86,6 +84,8 @@ kanban-plugin: board
 
 ## Done
 
+- [x] Procure hardware (XIAO ESP32S3, SG90 servos, Pi, cables, power, etc.)
+- [x] Design Camera Base
 
 
 
